@@ -15,6 +15,7 @@
     border: 5px solid red;
     grid-column: 1;
     grid-row: 1 / 5;
+    background-color: lightblue;
     
 
 }
