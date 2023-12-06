@@ -16,6 +16,10 @@
     grid-column: 1;
     grid-row: 1 / 5;
     background-color: lightblue;
+
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: repeat(13, 1fr);
     
 
 }
