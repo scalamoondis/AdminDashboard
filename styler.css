@@ -1,7 +1,7 @@
 @font-face {
 
     font-family: use-this-font;
-    src: url(/Users/dannyschwitalla/repos/AdminDashboard/Roboto/Roboto-Regular.ttf);
+    src: url(/Users/dannyschwitalla/repos/AdminDashboard/Roboto/Roboto-Bold.ttf);
 
 }
 
@@ -36,21 +36,203 @@ body {
     display: grid;
     grid-template-columns: 2fr 4fr;
     grid-template-rows: repeat(13, 1fr);
+    grid-template-areas: 
+        "mainlogopicture mainlogowords"
+        ". ."
+        "homepicture homelogowords"
+        "profilepicture profilelogowords"
+        "messagespicture messageslogowords"
+        "historypicture historylogowords"
+        "taskspicture taskslogowords"
+        "communitiespicture communitieslogowords"
+        ". ."
+        "settingspicture settingslogowords"
+        "supportpicture supportlogowords"
+        "privacypicture privacylogowords"
+       
     
+}
 
+
+.navpicture {
+
+    height: 20px;
+    width: 20px;
 }
 
 
 
 
+.mainlogopicture {
+
+    grid-area: mainlogopicture;
+    height: 45px;
+    width: 45px;
+    justify-self: center;
+    align-self: center;
+
+}
 
 
+.mainlogowords {
+
+    grid-area: mainlogowords;
+    font-size: x-large;
+    align-self: center;
+    
+    
+
+}
 
 
+.homepicture {
+
+    grid-area: homepicture;
+    justify-self: center;
+    align-self: center;
+
+}
 
 
+.homelogowords {
+
+    grid-area: homelogowords;
+    font-size: larger;
+
+}
 
 
+.profilepicture {
+
+    grid-area: profilepicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.profilelogowords {
+
+    grid-area: profilelogowords;
+    font-size: larger;
+
+}
+
+
+.messagespicture {
+
+    grid-area: messagespicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.messageslogowords {
+
+    grid-area: messageslogowords;
+    font-size: larger;
+
+
+}
+
+
+.historypicture {
+
+    grid-area: historypicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.historylogowords {
+
+    grid-area: historylogowords;
+    font-size: larger;
+}
+
+
+.taskspicture {
+
+    grid-area: taskspicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.taskslogowords {
+
+    grid-area: taskslogowords;
+    font-size: larger;
+}
+
+
+.communitiespicture {
+
+    grid-area: communitiespicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.communitieslogowords {
+
+    grid-area: communitieslogowords;
+    font-size: larger;
+
+}
+
+
+.settingspicture {
+
+    grid-area: settingspicture;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.settingslogowords {
+
+    grid-area: settingslogowords;
+    font-size: larger;
+
+}
+
+
+.supportpicture {
+
+    grid-area: supportpicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.supportlogowords {
+
+    grid-area: supportlogowords;
+    font-size: larger;
+
+}
+
+
+.privacypicture {
+
+    grid-area: privacypicture;
+    justify-self: center;
+    align-self: center;
+
+}
+
+
+.privacylogowords {
+
+    grid-area: privacylogowords;
+    font-size: larger;
+}
 
 
 
